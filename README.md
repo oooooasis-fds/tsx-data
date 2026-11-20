@@ -70,7 +70,7 @@ curl -H "Authorization: Bearer $KEY" \
 
 ## MCP server
 
-URL: `https://mcp.oooooasis.com/tsx` — Model Context Protocol (protocol version 2024-11-05), Streamable HTTP (`POST /mcp`) with an SSE transport (`GET /sse`, `POST /mcp/messages`) also available. Every request needs your TSX Data key in the `Authorization: Bearer` header; the key selects this service. The same quota, tier scope and coverage metering as REST apply to tool calls.
+URL: `https://mcp.oooooasis.com/tsx/mcp` — Model Context Protocol (protocol version 2024-11-05), Streamable HTTP (`POST` to this URL). Every request needs your TSX Data key in the `Authorization: Bearer` header; the key selects this service. The same quota, tier scope and coverage metering as REST apply to tool calls.
 
 Generic client configuration:
 
@@ -78,7 +78,7 @@ Generic client configuration:
 {
   "mcpServers": {
     "tsx-data": {
-      "url": "https://mcp.oooooasis.com/tsx",
+      "url": "https://mcp.oooooasis.com/tsx/mcp",
       "headers": { "Authorization": "Bearer <your tsx key>" }
     }
   }
@@ -125,6 +125,9 @@ Generic client configuration:
 ## Links & contact
 
 - Product page: https://www.oooooasis.com/tsx
+- MCP Yellow Page listing: https://mcpyp.com/mcp/com.oooooasis/tsx-data
+- Official MCP Registry: https://registry.modelcontextprotocol.io/v0.1/servers/io.github.oooooasis-fds%2Ftsx-data/versions/latest
+- MCP Try: https://mcptry.com/servers/io.github.oooooasis-fds/tsx-data
 - Pricing & paid-tier waitlist: https://api.oooooasis.com/pricing
 - Sister service — Factor Data (point-in-time equity factors): https://github.com/ooooOasis-fds/factor-data · https://www.oooooasis.com/fct
 - Contact: tsx-data@oooooasis.com
