@@ -126,8 +126,6 @@ Generic client configuration:
 
 - Product page: https://www.oooooasis.com/tsx
 - MCP Yellow Page listing: https://mcpyp.com/mcp/com.oooooasis/tsx-data
-- Official MCP Registry: https://registry.modelcontextprotocol.io/v0.1/servers/io.github.oooooasis-fds%2Ftsx-data/versions/latest
-- MCP Try: https://mcptry.com/servers/io.github.oooooasis-fds/tsx-data
 - Pricing & paid-tier waitlist: https://api.oooooasis.com/pricing
 - Sister service — Factor Data (point-in-time equity factors): https://github.com/ooooOasis-fds/factor-data · https://www.oooooasis.com/fct
 - Contact: tsx-data@oooooasis.com
