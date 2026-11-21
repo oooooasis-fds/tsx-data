@@ -70,7 +70,7 @@ curl -H "Authorization: Bearer $KEY" \
 
 ## MCP server
 
-URL: `https://mcp.oooooasis.com/tsx/mcp` — Model Context Protocol (protocol version 2024-11-05), Streamable HTTP (`POST` to this URL). Every request needs your TSX Data key in the `Authorization: Bearer` header; the key selects this service. The same quota, tier scope and coverage metering as REST apply to tool calls.
+URL: `https://mcp.oooooasis.com/tsx` — Model Context Protocol (protocol version 2024-11-05), Streamable HTTP (`POST` to this URL). Every request needs your TSX Data key in the `Authorization: Bearer` header; the key selects this service. The same quota, tier scope and coverage metering as REST apply to tool calls.
 
 Generic client configuration:
 
@@ -78,7 +78,7 @@ Generic client configuration:
 {
   "mcpServers": {
     "tsx-data": {
-      "url": "https://mcp.oooooasis.com/tsx/mcp",
+      "url": "https://mcp.oooooasis.com/tsx",
       "headers": { "Authorization": "Bearer <your tsx key>" }
     }
   }
